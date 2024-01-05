@@ -1,16 +1,16 @@
-import {ModelParams, ModelPluginInterface} from '../types/model-interface';
+import {ModelPluginInterface} from '../types/model-interface';
 
 /**
  * Observatory is responsible for output calculations based on the `inputs` and the `model`.
  */
 export class Observatory {
-  private inputs: ModelParams[];
-  private outputs: ModelParams[] = [];
+  private inputs: any[];
+  private outputs: any[] = [];
 
   /**
    * Init inputs object.
    */
-  constructor(inputs: ModelParams[]) {
+  constructor(inputs: any) {
     this.inputs = inputs;
   }
 
