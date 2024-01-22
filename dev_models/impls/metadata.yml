@@ -22,4 +22,3 @@ graph:
           duration: 3600
           cloud-vendor: 'azure'
           cloud-instance-type: 'Standard_NC24s_v3'
-
